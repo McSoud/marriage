@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+  font-family: "Radley";
+  src: url("/assets/fonts/Radley.ttf");
+}
+
+@font-face {
+  font-family: "PinyonScript";
+  src: url("/assets/fonts/PinyonScript.ttf");
+}
+
+@layer base {
+  :root {
+    font-family: Radley, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: #4e4e4e;
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
