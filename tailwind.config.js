@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        PinyonScript: "PinyonScript",
+        pinyonScript: "PinyonScript",
       },
     },
   },
