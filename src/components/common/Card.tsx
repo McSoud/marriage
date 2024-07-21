@@ -1,4 +1,5 @@
 import { DetailedHTMLProps, HTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
 
 type TProps = {
   id: DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>["id"];
@@ -6,16 +7,25 @@ type TProps = {
     HTMLAttributes<HTMLDivElement>,
     HTMLDivElement
   >["children"];
+  className?: DetailedHTMLProps<
+    HTMLAttributes<HTMLDivElement>,
+    HTMLDivElement
+  >["className"];
 };
 
-const Card = ({ id, children }: TProps) => {
+const Card = ({ id, children, className }: TProps) => {
   return (
-    <main id={`${id}-content`} className="mx-auto max-w-lg px-4 py-6">
+    <main id={`${id}-content`} className="mx-auto max-w-lg px-3 py-4">
       <div
-        className="rounded-sm bg-cover bg-bottom bg-no-repeat shadow-[0_0_25px_10px_#0004]"
+        className={twMerge(
+          "rounded-sm bg-cover bg-bottom bg-no-repeat shadow-[0_0_25px_10px_#0004]",
+          className,
+        )}
         style={{ backgroundImage: `url(/assets/images/${id}.webp)` }}
       >
-        <div className="min-h-[calc(100vh-3rem)] px-5 py-10">{children}</div>
+        <div className="min-h-[calc(100vh-2rem)] px-4 py-8 text-center">
+          {children}
+        </div>
       </div>
     </main>
   );

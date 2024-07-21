@@ -34,3 +34,9 @@
     height: 100%;
   }
 }
+
+@layer utilities {
+  .heading-italic {
+    @apply font-pinyonScript text-[40px] capitalize leading-snug;
+  }
+}
