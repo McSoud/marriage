@@ -116,7 +116,7 @@ function App() {
           <h2 className="heading-italic mb-4">Be our guest</h2>
           <p className="mb-4 text-lg">Kindly confirm before it's August 25th</p>
           <a
-            href="https://wa.me/71603848?text=Congratulations%20Georges%20%26%20Donna!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
+            href="https://wa.me/76394848?text=Congratulations%20Georges%20%26%20Donna!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
             target="_blank"
             rel="noreferrer noopener nofollow"
           >
