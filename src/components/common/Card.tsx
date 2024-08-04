@@ -23,7 +23,7 @@ const Card = ({ id, children, className }: TProps) => {
         )}
         style={{ backgroundImage: `url(/assets/images/${id}.webp)` }}
       >
-        <div className="min-h-[calc(100vh-2rem)] px-4 py-8 text-center">
+        <div className="h-[calc(100dvh-2rem)] px-4 py-8 text-center">
           {children}
         </div>
       </div>
