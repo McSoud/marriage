@@ -8,7 +8,7 @@ export default {
       },
       animation: {
         scale: "scale 3s linear infinite",
-        swipe: "swipe 2s linear infinite",
+        swipe: "swipe 4s linear infinite",
       },
       keyframes: {
         scale: {
