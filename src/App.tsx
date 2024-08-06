@@ -95,11 +95,12 @@ function App() {
       <SwiperSlide>
         <Card id="gift-registry" className="bg-top">
           <h2 className="heading-italic mb-4">Gift registry</h2>
-          <p className="mb-2 text-pretty text-sm">
+          <p className="text-pretty text-sm">
             Your presence is our biggest present, However, if you wish to send a
             gift, a registry will be held at
           </p>
           <div className="flex items-center justify-center gap-2 text-xl text-black">
+            <h3>Whish Money</h3>
             <div className="box-content grid size-5 place-content-center rounded-md bg-[#ec114e] p-1">
               <img
                 src="/assets/images/whish.webp"
@@ -107,7 +108,11 @@ function App() {
                 className="object-contain"
               />
             </div>
-            <h3 className="mb-1">20343663 or 76 39 48 48</h3>
+            <h3 className="text-sm">
+              20343663
+              <br />
+              76 39 48 48
+            </h3>
           </div>
         </Card>
       </SwiperSlide>
@@ -117,7 +122,7 @@ function App() {
           <p className="text-lg">Kindly confirm before it's August 25th</p>
           <div className="flex items-center justify-center gap-4 text-2xl text-black">
             <a
-              href="https://wa.me/+96176394848?text=Congratulations%20Georges%20%26%20Donna!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
+              href="https://wa.me/+96176394848?text=Congratulations%20Georges%20%26%20Donna%20Maria!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
               target="_blank"
               rel="noreferrer noopener nofollow"
             >
@@ -125,7 +130,7 @@ function App() {
               <SvgWhatsapp className="mx-auto size-8 animate-scale" />
             </a>
             <a
-              href="https://wa.me/+96171785683?text=Congratulations%20Georges%20%26%20Donna!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
+              href="https://wa.me/+96171785683?text=Congratulations%20Georges%20%26%20Donna%20Maria!%20🎊%20I'll%20be%20present%20to%20celebrate%20your%20special%20day%20with%20you%20😄"
               target="_blank"
               rel="noreferrer noopener nofollow"
             >
